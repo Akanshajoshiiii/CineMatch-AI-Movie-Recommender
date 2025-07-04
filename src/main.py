@@ -4,7 +4,9 @@ from recommend import df, recommend_movies
 from omdb_utils import get_movie_details
 
 # Secure API key access
-OMDB_API_KEY = st.secrets["OMDB_API_KEY"]
+#OMDB_API_KEY = st.secrets["OMDB_API_KEY"]
+OMDB_API_KEY = "your_api_key"  # your TMDB or OMDB key
+
 
 # Page setup
 st.set_page_config(
